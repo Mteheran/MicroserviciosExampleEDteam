@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Humanizer;
 namespace service1.Controllers;
 
-[Route("api/[controller]")]
+[Route("[controller]")]
 [ApiController]
 public class NumberToLetterController : ControllerBase
 {
