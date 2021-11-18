@@ -61,7 +61,7 @@ function App() {
   return (
     <div>
        <div>
-        <h1> Bienvenido a la app para menjo de texto </h1>
+        <h1> Bienvenido a la app para manejo de texto </h1>
        </div>
        { errorMessage ?
           <Alert variant="danger">
